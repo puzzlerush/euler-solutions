@@ -1,9 +1,9 @@
 def numOfFactors(n):
     factors = 0
-    for i in range(1, int(n/2) + 1):
+    for i in range(1,(int((n**0.5)+1))):
         if n%i == 0:
             factors += 1
-    return factors
+    return factors*2
         
 i = 0
 while True:
