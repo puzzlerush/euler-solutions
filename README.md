@@ -3,4 +3,4 @@ euler-solutions
 
 Project Euler Solutions
 
-Problems from the project euler site that I have solved.
+Solutions to problems from the project euler site.
