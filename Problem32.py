@@ -13,7 +13,7 @@ def pandigital(n):
             return True
     return False
 s = set()
-for i in range(100000):
+for i in range(10000):
     if pandigital(i):
         s.add(i)
 print(sum(s))        
